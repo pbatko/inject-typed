@@ -1,0 +1,10 @@
+inject-typed-env36
+
+.idea/
+*.iml
+
+*.pyc
+__pycache__/
+
+.mypy_cache
+.pytest_cache
