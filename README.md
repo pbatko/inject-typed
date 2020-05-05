@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/pbatko/inject-typed.svg?branch=master)](https://travis-ci.org/pbatko/inject-typed)
+
 # inject-typed
 
 ### Dependency Injection for Python driven by type annotations
