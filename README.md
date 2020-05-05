@@ -29,3 +29,28 @@ Mark `src` dir as `Source Root`
 Resources:
 https://virtualenv.pypa.io/en/latest/
 
+### Releasing
+
+
+python -m pip install --upgrade setuptools wheel
+python -m pip install --upgrade twine
+
+python setup.py sdist bdist_wheel
+
+
+
+
+python -m twine upload --repository testpypi dist/*
+python -m twine upload --repository pypi dist/*
+username: __token__
+pass: use API key
+
+
+
+python -m pip install --index-url https://test.pypi.org/simple/ --no-deps inject-typed
+
+
+python -m pip install --index-url https://test.pypi.org/simple/ --no-deps inject-typed
+
+Resources:
+https://packaging.python.org/tutorials/packaging-projects/
