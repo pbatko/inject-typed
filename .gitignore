@@ -8,3 +8,8 @@ __pycache__/
 
 .mypy_cache
 .pytest_cache
+
+# Directories created when building the package
+/build
+/dist
+/src/inject_typed.egg-info
